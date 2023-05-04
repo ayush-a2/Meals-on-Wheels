@@ -1,4 +1,4 @@
-# MEELS ON WHEELS
+# Online Food Delivery APP
 
 <p align="center">
     <img src="homePage\images\Screenshot 2023-05-04 154733.png" />

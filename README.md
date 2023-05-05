@@ -62,3 +62,5 @@ The REST API allows a Customer to **Signup, Login** & **Browse** through the foo
 Restaurant can **Add, Update, View, Delete** **Food** from the **Database**.
 
 Administrator can **View request Delete Account List** and **Delete the Account As Per Request**.
+
+

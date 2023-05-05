@@ -18,7 +18,7 @@ import com.masai.service.RestaurantLoginService;
 import org.springframework.web.bind.annotation.RequestBody;
 
 @RestController
-@RequestMapping("/YourDoorFood")
+@RequestMapping("/MealsOnWheels")
 public class LoginController {
 
 	@Autowired

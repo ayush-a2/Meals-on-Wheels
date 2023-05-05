@@ -15,7 +15,7 @@ import com.masai.exception.OrderDetailsException;
 import com.masai.service.DeliveryService;
 
 @RestController
-@RequestMapping("/YourDoorFood")
+@RequestMapping("/MealsOnWheels")
 public class DeliveryController {
 
 	@Autowired

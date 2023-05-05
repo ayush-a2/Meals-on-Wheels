@@ -22,7 +22,7 @@ import com.masai.model.OrderDetails;
 import com.masai.service.OrderService;
 
 @RestController
-@RequestMapping("/YourDoorFood")
+@RequestMapping("/MealsOnWheels")
 public class OrderController {
 	@Autowired
 	private OrderService orderService;

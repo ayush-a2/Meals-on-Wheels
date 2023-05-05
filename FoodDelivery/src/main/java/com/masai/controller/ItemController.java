@@ -24,7 +24,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import jakarta.validation.Valid;
 
 @RestController
-@RequestMapping(value = "/YourDoorFood")
+@RequestMapping(value = "/MealsOnWheels")
 public class ItemController {
 
 	@Autowired

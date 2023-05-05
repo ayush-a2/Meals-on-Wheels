@@ -23,7 +23,7 @@ import com.masai.service.FoodCartService;
 
 
 @RestController
-@RequestMapping("/YourDoorFood")
+@RequestMapping("/MealsOnWheels")
 public class FoodCartController {
 	
 	@Autowired

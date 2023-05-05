@@ -21,3 +21,46 @@ The API's Services will be used by the **Three** categories of users:
 - **User (Customer)**
 
 - **User (Restaurant)**
+
+## Tech Stack
+
+- JAVA
+- SPRING
+- SPRINGBOOT
+- HIBERNATE
+- MAVEN
+- J.D.B.C
+- MYSQL
+- SWAGGER UI
+
+## Dependencies
+
+- SPRING DATA JPA
+- SPRING BOOT DEVTOOLS
+- SPRING WEB
+- HIBERNATE
+- MYSQL DRIVER
+- VALIDATION
+- LOMBOK
+- SWAGGER UI
+
+## Modules
+
+- Restaurant Module
+- Customer Module
+- Admin Module
+- Food Module
+- Cart Module
+- Order Module
+- Bill Module
+- Exception Handler Module
+
+## System Structure
+
+The REST API allows a Customer to **Signup, Login** & **Browse** through the food, view product as well as Restaurant and add food to **Cart** wishlist, as well as for the Restaurant to **View** all the **Orders, Customers & food**.
+
+Restaurant can **Add, Update, View, Delete** **Food** from the **Database**.
+
+Administrator can **View request Delete Account List** and **Delete the Account As Per Request**.
+
+

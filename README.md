@@ -63,4 +63,39 @@ Restaurant can **Add, Update, View, Delete** **Food** from the **Database**.
 
 Administrator can **View request Delete Account List** and **Delete the Account As Per Request**.
 
+## About
 
+This project is a team project of 5 members, This is an online ordering and delivery Rest API. We built this Rest API project Within 5 days and this is our project during **the Masai curriculum (Construct Week)**.
+
+## Feature
+
+- ## Restaurant
+
+  - Signup
+  - Login & Logout
+  - View all Food
+  - View all Orders of an Customer as order that Restaurant
+  - Add New Food into Database
+  - Remove Food from Database
+  - Update Food in Database
+  - Update their Profile
+
+- ## Customer
+
+  - Signup
+  - Login & Logout
+  - Update all Personal Details
+  - View all Food .
+  - Add Food to Cart
+  - Update Food Quantity in Cart
+  - Delete Food from Cart
+  - Empty Cart
+  - Add Order
+  - Cancel Order
+  - View Orders
+
+- Administrator
+  -
+  - Login
+  - View Deleted Account Request
+  - Delete Account as per Request

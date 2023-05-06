@@ -65,12 +65,12 @@ Administrator can **View request Delete Account List** and **Delete the Account 
 
 ## About
 
-This project is a team project of 4 members, This is an online ordering and delivery Rest API. We built this Rest API project Within 5 days and this is our project during **the Masai curriculum (Construct Week)**.
+This project is a team project of 5 members, This is an online ordering and delivery Rest API. We built this Rest API project Within 5 days and this is our project during **the Masai curriculum (Construct Week)**.
 
 ## Feature
 
-- Restaurant
-  -
+- ## Restaurant
+
   - Signup
   - Login & Logout
   - View all Food
@@ -79,3 +79,16 @@ This project is a team project of 4 members, This is an online ordering and deli
   - Remove Food from Database
   - Update Food in Database
   - Update their Profile
+
+- ## Customer
+  - Signup
+  - Login & Logout
+  - Update all Personal Details
+  - View all Food .
+  - Add Food to Cart
+  - Update Food Quantity in Cart
+  - Delete Food from Cart
+  - Empty Cart
+  - Add Order
+  - Cancel Order
+  - View Orders

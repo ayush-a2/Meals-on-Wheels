@@ -52,11 +52,11 @@
                 
                 <input type="number" id="phone" placeholder="Mobile Number" class="size">
                 <br>
-                <input type="password" id="pass" class="size" placeholder="Password (8 to 20 characters)">
+                <input type="password" id="password" class="size" placeholder="Password (8 to 20 characters)">
                 <br>
                 
         
-        <button onclick="join()"id="join">Log In</button>
+        <button onclick="login()"id="join">Log In</button>
             </div>
            
         
@@ -70,11 +70,36 @@
 <script>
     document.querySelector(".popup").classList.add("active");
 
+    function login(){
+
+        let pn=document.getElementById("phone").value;
+    let pass=document.getElementById("password").value;
+    
+    fetch("http://localhost:8080//login/customer/login", {
+
+        method: "POST",
+        headers: {
+            "content-type": "application/json"
+        },
+        body: JSON.stringify({
+            "phone": pn,
+            "password": pass
+        })
+    }).then(response => {
+        if(response.status == 201 | response.status == 200){
+            response.json().then(data => {
+                alert("Loggedin Succesfully")
+            });
+        }else{
+            response.json().then(data => alert(data.message));
+        }
+    })
+
+
+}
    
-    function join(){
-       
-    alert("Created Account Sucessfully")
-    }
+
+    
 
    
 </script>

@@ -14,8 +14,7 @@ import com.masai.exception.LoginException;
 import com.masai.model.Bill;
 import com.masai.model.CurrentUserSession;
 import com.masai.model.Customer;
-import com.masai.model.DateDTO;
-import com.masai.model.ItemQuantityDTO;
+import com.masai.model.Date;
 import com.masai.model.OrderDetails;
 import com.masai.repository.BillRepo;
 import com.masai.repository.CustomerRepo;
@@ -69,7 +68,7 @@ public class BillServiceImpl implements BillService{
 	}
 
 	@Override
-	public List<Bill> viewBill(String key, DateDTO dateDTO) throws BillException, CustomerException, LoginException {
+	public List<Bill> viewBill(String key, Date dateDTO) throws BillException, CustomerException, LoginException {
 		LocalDate startDate= dateDTO.getStartDate();
 		LocalDate endDate= dateDTO.getEndDate();
 		

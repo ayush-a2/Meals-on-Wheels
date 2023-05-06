@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.masai.exception.CustomerException;
 import com.masai.exception.LoginException;
 import com.masai.model.Customer;
+import com.masai.model.Login;
 import com.masai.model.LoginDTO;
 import com.masai.service.AdminService;
 
@@ -27,7 +28,7 @@ public class AdminController {
 	private AdminService adminService;
 
 	@DeleteMapping("/admin/customers/delete")
-	public ResponseEntity<String> deleteCustomersHandler(@Valid @RequestBody LoginDTO loginDTO) throws LoginException{
+	public ResponseEntity<String> deleteCustomersHandler(@Valid @RequestBody Login loginDTO) throws LoginException{
 		String result = adminService.deleteAccounts(loginDTO);
 		return new ResponseEntity<>(result, HttpStatus.ACCEPTED);
 		

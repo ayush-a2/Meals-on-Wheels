@@ -10,6 +10,8 @@ import org.springframework.stereotype.Service;
 import com.masai.exception.CustomerException;
 import com.masai.exception.LoginException;
 import com.masai.model.Customer;
+import com.masai.model.DeleteCustomerAccount;
+import com.masai.model.Login;
 import com.masai.model.LoginDTO;
 import com.masai.model.ToBeDeletedCustomerAccount;
 import com.masai.repository.CustomerRepo;
@@ -25,7 +27,7 @@ public class AdminServiceImpl implements AdminService{
 	private DeletedCustomerAccountRepo deletedCustomerAccountRepo;
 	
 	@Override
-	public String deleteAccounts(LoginDTO loginDTO) throws LoginException {
+	public String deleteAccounts(Login loginDTO) throws LoginException {
 		
 		if(!loginDTO.getMobileNumber().equals("9999988888") || !loginDTO.getPassword().equals("9999888888")) {
 			throw new LoginException("Invalid login details");
@@ -33,9 +35,9 @@ public class AdminServiceImpl implements AdminService{
 		
 		Integer noOfAccountsDeleted = 0;
 		
-		List<ToBeDeletedCustomerAccount> deletedCustomerAccounts = deletedCustomerAccountRepo.findAll();
+		List<DeleteCustomerAccount> deletedCustomerAccounts = deletedCustomerAccountRepo.findAll();
 		
-		for(ToBeDeletedCustomerAccount e : deletedCustomerAccounts) {
+		for(DeleteCustomerAccount e : deletedCustomerAccounts) {
 			if(LocalDateTime.now().isAfter(e.getDeletionSheduledAt().plusMinutes(2))) {
 				Customer customer = customerRepo.findById(e.getCustomerId()).get();
 				customerRepo.delete(customer);
@@ -48,7 +50,7 @@ public class AdminServiceImpl implements AdminService{
 	}
 
 	@Override
-	public List<Customer> showToBeDeletedAccounts(LoginDTO loginDTO) throws CustomerException, LoginException {
+	public List<Customer> showToBeDeletedAccounts(Login loginDTO) throws CustomerException, LoginException {
 		
 		if(!loginDTO.getMobileNumber().equals("9999988888") || !loginDTO.getPassword().equals("9999888888")) {
 			throw new LoginException("Invalid login details");
@@ -56,9 +58,9 @@ public class AdminServiceImpl implements AdminService{
 
 		List<Customer> customers = new ArrayList<>();
 
-		List<ToBeDeletedCustomerAccount> deletedCustomerAccounts = deletedCustomerAccountRepo.findAll();
+		List<DeleteCustomerAccount> deletedCustomerAccounts = deletedCustomerAccountRepo.findAll();
 		
-		for(ToBeDeletedCustomerAccount e : deletedCustomerAccounts) {
+		for(DeleteCustomerAccount e : deletedCustomerAccounts) {
 			if(LocalDateTime.now().isAfter(e.getDeletionSheduledAt().plusMinutes(2))) {
 
 				Customer customer = customerRepo.findById(e.getCustomerId()).get();

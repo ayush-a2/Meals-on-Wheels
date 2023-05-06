@@ -16,6 +16,7 @@ import com.masai.exception.BillException;
 import com.masai.exception.CustomerException;
 import com.masai.exception.LoginException;
 import com.masai.model.Bill;
+import com.masai.model.Date;
 import com.masai.model.DateDTO;
 import com.masai.service.BillService;
 
@@ -35,7 +36,7 @@ public class BillController {
 	
 	
 	@PostMapping("/bills/customer/view_bills_date_filtered/{loginKey}")
-	public ResponseEntity<List<Bill>> viewBillBetweenDateHandler(@PathVariable("loginKey") String key, @Valid @RequestBody DateDTO dateDTO) throws BillException, CustomerException, LoginException{
+	public ResponseEntity<List<Bill>> viewBillBetweenDateHandler(@PathVariable("loginKey") String key, @Valid @RequestBody Date dateDTO) throws BillException, CustomerException, LoginException{
 		List<Bill> bills= billService.viewBill(key, dateDTO);
 		return new ResponseEntity<List<Bill>>(bills, HttpStatus.ACCEPTED);
 	}

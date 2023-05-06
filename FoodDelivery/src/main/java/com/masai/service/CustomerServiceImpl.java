@@ -11,6 +11,7 @@ import com.masai.exception.LoginException;
 import com.masai.model.Address;
 import com.masai.model.CurrentUserSession;
 import com.masai.model.Customer;
+import com.masai.model.ResetPassword;
 import com.masai.model.ResetPasswordDTO;
 import com.masai.model.ToBeDeletedCustomerAccount;
 import com.masai.repository.CustomerRepo;
@@ -113,9 +114,10 @@ public class CustomerServiceImpl implements CustomerService{
 		return "Address updated sucssesfully";
 	}
 
+
+
 	@Override
-	public String updatepassword(String key, ResetPasswordDTO resetPasswordDTO) throws CustomerException, LoginException {
-		
+	public String updatepassword(String key, ResetPassword resetPasswordDTO) throws CustomerException, LoginException {
 		String currentPassword= resetPasswordDTO.getCurrentPassword();
 		
 		String newPassword= resetPasswordDTO.getNewPassword();

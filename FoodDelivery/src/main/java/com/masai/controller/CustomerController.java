@@ -22,7 +22,7 @@ import com.masai.service.CustomerService;
 import jakarta.validation.Valid;
 
 @RestController
-@RequestMapping(value = "/YourDoorFood")
+@RequestMapping(value = "/MealsOnWheels")
 public class CustomerController {
 	
 	@Autowired

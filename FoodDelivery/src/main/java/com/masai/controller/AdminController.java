@@ -20,7 +20,7 @@ import com.masai.service.AdminService;
 import jakarta.validation.Valid;
 
 @RestController
-@RequestMapping("/YourDoorFood")
+@RequestMapping("/MealsOnWheels")
 public class AdminController {
 	
 	@Autowired

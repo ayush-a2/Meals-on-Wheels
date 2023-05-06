@@ -81,6 +81,7 @@ This project is a team project of 5 members, This is an online ordering and deli
   - Update their Profile
 
 - ## Customer
+
   - Signup
   - Login & Logout
   - Update all Personal Details
@@ -92,3 +93,9 @@ This project is a team project of 5 members, This is an online ordering and deli
   - Add Order
   - Cancel Order
   - View Orders
+
+- Administrator
+  -
+  - Login
+  - View Deleted Account Request
+  - Delete Account as per Request

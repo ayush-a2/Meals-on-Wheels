@@ -101,7 +101,7 @@ This project is a team project of 5 members, This is an online ordering and deli
 
 # FLOW CHART
 
-<img src="protective-actor-2054\IMAGES\MealsOnWheels_Flow_Chart.jpg" />
+<img src="IMAGES/MEELS ON WHEELS Entity Relationship Diagram.jpg" />
 
 # Entity Relationship Diagram
 

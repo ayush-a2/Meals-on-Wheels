@@ -101,8 +101,9 @@ This project is a team project of 5 members, This is an online ordering and deli
 
 # FLOW CHART
 
-<img src="IMAGES/MEELS ON WHEELS Entity Relationship Diagram.jpg" />
+<img src="IMAGES/MealsOnWheels_Flow_Chart.jpg" />
+
 
 # Entity Relationship Diagram
 
-<img src="IMAGES/MealsOnWheels_Flow_Chart.jpg" />
+<img src="IMAGES/MEELS ON WHEELS Entity Relationship Diagram.jpg" />

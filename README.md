@@ -94,8 +94,15 @@ This project is a team project of 5 members, This is an online ordering and deli
   - Cancel Order
   - View Orders
 
-- Administrator
-  -
+- ## Administrator
   - Login
   - View Deleted Account Request
   - Delete Account as per Request
+
+# FLOW CHART
+
+<img src="protective-actor-2054\IMAGES\MealsOnWheels_Flow_Chart.jpg" />
+
+# Entity Relationship Diagram
+
+<img src="protective-actor-2054\IMAGES\MEELS ON WHEELS Entity Relationship Diagram.jpg" />

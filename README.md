@@ -1,6 +1,7 @@
 # MEELS ON WHEELS
   
-    
+   <div style="background: linear-gradient(to right, rgb(153, 255, 236), rgb(255, 122, 122)); padding: 20px;"></div>
+
  
 <p align="center">
     <img src="https://i.pinimg.com/originals/c0/6a/5a/c06a5ab3830f27fac05d8fc45b2ba615.gif" alt="gif" margin="0 auto" display="block" width="80%" height="650px"  object-fit="cover">

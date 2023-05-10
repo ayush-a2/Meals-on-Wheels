@@ -1,7 +1,7 @@
 # MEELS ON WHEELS
 
 <p align="center">
-    <img src="homePage\images\Screenshot 2023-05-04 154733.png" />
+    <img src="https://cdn.dribbble.com/users/1890021/screenshots/8576649/media/fffdfabcea9ffe954570a25aa9423b08.gif" />
 </p>
 
 # MEELS ON WHEELS

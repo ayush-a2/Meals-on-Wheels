@@ -1,7 +1,7 @@
 # MEELS ON WHEELS
 
 <p align="center">
-    <img src="[https://assets.materialup.com/uploads/a0e2a99b-d0e8-4d74-8407-270e9f9eebe7/preview.gif](https://static.toiimg.com/photo/resizemode-75,overlay-toiplus,msid-69060179/69060179.jpg)" alt="gif" margin="0 auto" display="block" width="100%" height="650px"  object-fit="cover">
+    <img src="https://assets.materialup.com/uploads/a0e2a99b-d0e8-4d74-8407-270e9f9eebe7/preview.gif" alt="gif" margin="0 auto" display="block" width="100%" height="650px"  object-fit="cover">
 </p>
 
 # MEELS ON WHEELS

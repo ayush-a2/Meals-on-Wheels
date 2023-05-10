@@ -1,7 +1,7 @@
 # MEELS ON WHEELS
-  body {
-    background: linear-gradient(to right, #ff0000, #0000ff);
-  }
+  
+    
+ 
 <p align="center">
     <img src="https://i.pinimg.com/originals/c0/6a/5a/c06a5ab3830f27fac05d8fc45b2ba615.gif" alt="gif" margin="0 auto" display="block" width="80%" height="650px"  object-fit="cover">
 </p>

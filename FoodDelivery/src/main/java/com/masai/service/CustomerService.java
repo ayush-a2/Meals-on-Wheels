@@ -5,7 +5,7 @@ import com.masai.exception.CustomerException;
 import com.masai.exception.LoginException;
 import com.masai.model.Address;
 import com.masai.model.Customer;
-import com.masai.model.ResetPasswordDTO;
+import com.masai.model.ResetPassword;
 
 public interface CustomerService {
 	
@@ -19,5 +19,5 @@ public interface CustomerService {
 	
 	public String updateAddress(String key, Address address) throws CustomerException, LoginException;
 	
-	public String updatepassword(String key, ResetPasswordDTO resetPasswordDTO) throws CustomerException, LoginException;
+	public String updatepassword(String key, ResetPassword resetPasswordDTO) throws CustomerException, LoginException;
 }

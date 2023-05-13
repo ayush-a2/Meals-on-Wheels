@@ -1,7 +1,8 @@
 # MEELS ON WHEELS
 
+ 
 <p align="center">
-    <img src="homePage\images\Screenshot 2023-05-04 154733.png" />
+    <img src="https://i.pinimg.com/originals/c0/6a/5a/c06a5ab3830f27fac05d8fc45b2ba615.gif" alt="gif" margin="0 auto" display="block" width="80%" height="650px"  object-fit="cover">
 </p>
 
 # MEELS ON WHEELS
@@ -25,11 +26,9 @@ The API's Services will be used by the **Three** categories of users:
 ## Tech Stack
 
 - JAVA
-- SPRING
 - SPRINGBOOT
 - HIBERNATE
 - MAVEN
-- J.D.B.C
 - MYSQL
 - SWAGGER UI
 
@@ -63,4 +62,47 @@ Restaurant can **Add, Update, View, Delete** **Food** from the **Database**.
 
 Administrator can **View request Delete Account List** and **Delete the Account As Per Request**.
 
+## About
 
+This project is a team project of 4 members, This is an online ordering and delivery Rest API. We built this Rest API project Within 5 days.
+
+## Feature
+
+- ## Restaurant
+
+  - Signup
+  - Login & Logout
+  - View all Food
+  - View all Orders of an Customer as order that Restaurant
+  - Add New Food into Database
+  - Remove Food from Database
+  - Update Food in Database
+  - Update their Profile
+
+- ## Customer
+
+  - Signup
+  - Login & Logout
+  - Update all Personal Details
+  - View all Food .
+  - Add Food to Cart
+  - Update Food Quantity in Cart
+  - Delete Food from Cart
+  - Empty Cart
+  - Add Order
+  - Cancel Order
+  - View Orders
+
+- ## Administrator
+  - Login
+  - View Deleted Account Request
+  - Delete Account as per Request
+
+# FLOW CHART
+
+<img src="IMAGES/MealsOnWheels_Flow_Chart.jpg" />
+
+
+# Entity Relationship Diagram
+
+<img src="IMAGES/MEELS ON WHEELS Entity Relationship Diagram.jpg" />

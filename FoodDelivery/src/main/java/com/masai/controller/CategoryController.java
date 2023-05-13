@@ -15,7 +15,7 @@ import com.masai.model.Item;
 import com.masai.service.CategoryService;
 
 @RestController
-@RequestMapping(value = "/yourDoorFood")
+@RequestMapping(value = "/MealsOnWheels")
 public class CategoryController {
 
 	@Autowired

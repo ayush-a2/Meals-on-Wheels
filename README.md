@@ -26,11 +26,9 @@ The API's Services will be used by the **Three** categories of users:
 ## Tech Stack
 
 - JAVA
-- SPRING
 - SPRINGBOOT
 - HIBERNATE
 - MAVEN
-- J.D.B.C
 - MYSQL
 - SWAGGER UI
 
@@ -66,7 +64,7 @@ Administrator can **View request Delete Account List** and **Delete the Account 
 
 ## About
 
-This project is a team project of 5 members, This is an online ordering and delivery Rest API. We built this Rest API project Within 5 days and this is our project during **the Masai curriculum (Construct Week)**.
+This project is a team project of 4 members, This is an online ordering and delivery Rest API. We built this Rest API project Within 5 days.
 
 ## Feature
 
